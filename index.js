@@ -3,16 +3,16 @@
 // mit import
 
 
-import {cleanInput} from "./part1";
+import {processString} from "./part1";
 import {shiftLetters} from "./part2";
-import {encodeDigits} from "./part3";
+import {ziffernCodierung} from "./part3";
 import {encodeKey} from "./part4";
 
 
 function main(input) {
-    let partAOutput = cleanInput(input);
+    let partAOutput = processString(input);
     let partBOutput = shiftLetters(partAOutput);
-    let partCOutput = encodeDigits(partBOutput);
+    let partCOutput = ziffernCodierung(partBOutput);
     let finalOutput = encodeKey(partCOutput);
     
     return finalOutput;
