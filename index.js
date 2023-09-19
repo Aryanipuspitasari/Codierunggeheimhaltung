@@ -3,10 +3,10 @@
 // mit import
 
 
-import {processString} from "./part1";
-import {shiftLetters} from "./part2";
-import {ziffernCodierung} from "./part3";
-import {encodeKey} from "./part4";
+import {processString} from "./part1.js";
+import {shiftLetters} from "./part2.js";
+import {ziffernCodierung} from "./part3.js";
+import {encodeKey} from "./part4.js";
 
 
 function main(input) {
