@@ -25,7 +25,7 @@ console.log(main(input)); // Sollte [8, 18, 17, 10,  8, 14, 13, 12, 11, 9,  4, 1
 
 
 
-// ohne import 8
+// ohne import 
 
 // function cleanInput(input) {
 //   let ergebnisHash = input.replace(/[^a-zA-Z]/g, '');

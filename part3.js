@@ -48,4 +48,4 @@ console.log(ziffernCodierung("uhxcfcCejklmwRtqir"));
 
 module.exports = {ziffernCodierung};
 
-// s
+

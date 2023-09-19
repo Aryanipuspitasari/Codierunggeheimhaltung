@@ -26,4 +26,4 @@ console.log(shiftLetters(inputAusTeil1)); // Sollte "uhxcfcCejklmwRtqir" ausgebe
 
 module.exports = {shiftLetters};
 
-// s
+

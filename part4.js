@@ -23,4 +23,3 @@ console.log(encodeKey(inputAusTeil3)); // Sollte [8, 18, 17, 10,  8, 14, 13, 12,
 module.exports = {encodeKey};
 
 
-// s
