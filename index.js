@@ -3,10 +3,11 @@
 // mit import
 
 
-import {processString} from "./part1.js";
-import {shiftLetters} from "./part2.js";
-import {ziffernCodierung} from "./part3.js";
-import {encodeKey} from "./part4.js";
+const {processString} = require("./part1");
+const {shiftLetters} = require("./part2");
+const {ziffernCodierung} = require("./part3");
+const {encodeKey} = require("./part4");
+
 
 
 function main(input) {
