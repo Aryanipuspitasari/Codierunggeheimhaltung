@@ -20,6 +20,6 @@ function encodeKey(inputArray) {
 const inputAusTeil3 = [8, 8, 7, 10, 8, 4, 3, 2, 1, 9, 4, 2, 2, 5, 2, 5, 7, 2];
 console.log(encodeKey(inputAusTeil3)); // Sollte [8, 18, 17, 10,  8, 14, 13, 12, 11, 9,  4, 12, 12, 15, 12, 15,  7, 12] ausgeben
 
-
+module.exports = {encodeKey};
 
 

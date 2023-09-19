@@ -24,4 +24,6 @@ function shiftLetters(input) {
 const inputAusTeil1 = "pgorPyukjizhdAbeawfs";
 console.log(shiftLetters(inputAusTeil1)); // Sollte "uhxcfcCejklmwRtqir" ausgeben
 
+module.exports = {shiftLetters};
+
 

@@ -3,10 +3,11 @@
 // mit import
 
 
-import {processString} from "./part1.js";
-import {shiftLetters} from "./part2.js";
-import {ziffernCodierung} from "./part3.js";
-import {encodeKey} from "./part4.js";
+const {processString} = require("./part1");
+const {shiftLetters} = require("./part2");
+const {ziffernCodierung} = require("./part3");
+const {encodeKey} = require("./part4");
+
 
 
 function main(input) {
@@ -24,7 +25,7 @@ console.log(main(input)); // Sollte [8, 18, 17, 10,  8, 14, 13, 12, 11, 9,  4, 1
 
 
 
-// ohne import
+// ohne import 
 
 // function cleanInput(input) {
 //   let ergebnisHash = input.replace(/[^a-zA-Z]/g, '');

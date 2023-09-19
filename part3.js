@@ -46,6 +46,8 @@ function ziffernCodierung(input) {
 
 console.log(ziffernCodierung("uhxcfcCejklmwRtqir"));
 
+module.exports = {ziffernCodierung};
+
 
 
 /*
@@ -81,5 +83,6 @@ reverse th array result
 ]
 
 */
+
 
 
