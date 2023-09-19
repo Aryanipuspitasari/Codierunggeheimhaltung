@@ -28,7 +28,7 @@ function ziffernCodierung(input) {
 
             let sum2DigitNumber = 0;
 
-            // MDN RESOURCE
+            // STACK OVER FLOW RESOURCE
             while (theNumber > 0) {
                 sum2DigitNumber += theNumber % 10;
                 theNumber = Math.floor(theNumber / 10);
@@ -39,9 +39,9 @@ function ziffernCodierung(input) {
 
     }
 
-    // REVERSE THE ARRAY RESULT
+    // REVERSE THE ARRAY OUTPUT
 
-   return outputAlphabetArray.reverse()
+   return outputAlphabetArray.reverse();
 }
 
 console.log(ziffernCodierung("uhxcfcCejklmwRtqir"));
