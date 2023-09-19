@@ -49,3 +49,40 @@ console.log(ziffernCodierung("uhxcfcCejklmwRtqir"));
 module.exports = {ziffernCodierung};
 
 
+
+/*
+function test 1
+
+console.log(ziffernCodierung("uhxcfcCejklmwRtqir"));
+
+
+result :
+
+[
+  20,  7, 23,  2,  5,  2,  2,
+   4,  9, 10, 11, 12, 22, 17,
+  19, 16,  8, 17
+]
+
+function test 2
+
+result 
+
+[
+   2, 7, 5, 2, 5, 2, 2,
+   4, 9, 1, 2, 3, 4, 8,
+  10, 7, 8, 8
+]
+
+reverse th array result
+
+[
+  8, 8, 7, 10, 8, 4, 3,
+  2, 1, 9,  4, 2, 2, 5,
+  2, 5, 7,  2
+]
+
+*/
+
+
+
