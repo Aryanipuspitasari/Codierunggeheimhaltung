@@ -3,7 +3,10 @@
 // mit import
 
 
-import { cleanInput, shiftLetters, encodeDigits, encodeKey } from "./.git";
+import {cleanInput} from "./part1";
+import {shiftLetters} from "./part2";
+import {encodeDigits} from "./part3";
+import {encodeKey} from "./part4";
 
 
 function main(input) {
@@ -17,7 +20,6 @@ function main(input) {
 
 const input = "s?§$f5wa&$=6eb8Ad1hs12z1,89i4w&/ajkhuyPs5§irf95kfoguh6(&opg%fh";
 console.log(main(input)); // Sollte [8, 18, 17, 10,  8, 14, 13, 12, 11, 9,  4, 12, 12, 15, 12, 15,  7, 12] ausgeben
-
 
 
 
